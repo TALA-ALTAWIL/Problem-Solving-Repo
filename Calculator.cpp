@@ -75,16 +75,25 @@ public:
 
 int main() {
 	clsCalculator Calculator1;
-	Calculator1.Add(10);
+	Calculator1.Add(100);
 	Calculator1.PrintFinalResult();	
+	
 	Calculator1.Multiply(10);
 	Calculator1.PrintFinalResult();	
+
+	Calculator1.CancelLastOperation();
+    Calculator1.PrintFinalResult();
+	
 	Calculator1.Subtract(70);
 	Calculator1.PrintFinalResult();	
+	
 	Calculator1.Clear();
 	Calculator1.PrintFinalResult();	
+	
 	Calculator1.Add(80);
 	Calculator1.PrintFinalResult();
+	
 	Calculator1.Divide(0);
 	Calculator1.PrintFinalResult();
 }
+
