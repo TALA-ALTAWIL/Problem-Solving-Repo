@@ -2,6 +2,7 @@
 ## Table of Contents
 1. [Simple Calculator](#simple-calculator)
 2. [Person Class Demo](#person-class-demo)
+3. [Leap Year](#leap-year-checker)
    
 # Simple Calculator
 
@@ -30,6 +31,22 @@ The class stores personal information and provides methods to manipulate and dis
 - Print full information of a person
 - Simulate sending an email (console output)
 - Simulate sending an SMS (console output)
+
+# Leap Year Checker
+
+This is a simple C++ program that checks whether a given year is a **leap year** or not.
+
+## 📌 Problem Description
+A leap year is defined as:
+- A year that is **divisible by 400**, OR  
+- A year that is **divisible by 4 but not by 100**.  
+
+Otherwise, the year is not a leap year.
+
+## 🛠️ Features
+- Reads a year from the user.
+- Checks if the year is a leap year using a simple condition.
+- Prints the result to the console.
 
 ## Usage
 1. Compile the code using any C++ compiler
