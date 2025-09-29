@@ -3,6 +3,7 @@
 1. [Simple Calculator](#simple-calculator)
 2. [Person Class Demo](#person-class-demo)
 3. [Leap Year](#leap-year-checker)
+4. [Zeller Day Of Week](#day-of-the-week-calculator)
    
 # Simple Calculator
 
@@ -50,3 +51,32 @@ Otherwise, the year is not a leap year.
 
 ## Usage
 1. Compile the code using any C++ compiler
+
+ # Day of the Week Calculator
+
+This C++ program calculates the **day of the week** for any given date using **Zeller's Congruence** formula.  
+It takes a date as input (day, month, year) and outputs:
+
+- The formatted date (`dd/mm/yyyy`)
+- The numeric order of the day (0 = Sunday, 1 = Monday, ..., 6 = Saturday)
+- The full name of the day
+
+---
+
+## 📌 Problem Statement
+Write a C++ program that:
+
+1. Reads a date from the user (day, month, year)
+2. Computes the day of the week for that date
+3. Displays the day order and its name
+
+---
+Where:
+
+- `m` = adjusted month (March = 1, ..., February = 12)  
+- `y` = year adjusted if month is January or February  
+- `0 = Sunday, 1 = Monday, ..., 6 = Saturday`
+
+
+
+  
