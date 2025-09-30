@@ -4,6 +4,7 @@
 2. [Person Class Demo](#person-class-demo)
 3. [Leap Year](#leap-year-checker)
 4. [Zeller Day Of Week](#day-of-the-week-calculator)
+5. [Full Year Calendar](#year-calendar)
    
 # Simple Calculator
 
@@ -77,6 +78,25 @@ Where:
 - `y` = year adjusted if month is January or February  
 - `0 = Sunday, 1 = Monday, ..., 6 = Saturday`
 
+# Year Calendar
+
+A simple C++ program to display a full calendar for a given year.  
+It prints all 12 months with correct day alignment considering leap years.
+
+## Features
+
+- Display calendar for any year entered by the user.
+- Automatically handles leap years.
+- Shows each month with days aligned under Sun, Mon, Tue, Wed, Thu, Fri, Sat.
+- Easy to read console output.
+
+## How to Use
+
+1. Clone or download the repository.
+2. Make sure you have a C++ compiler installed (e.g., g++, Visual Studio).
+3. Compile the project:
+   ```bash
+   g++ YearCalendar.cpp -o YearCalendar
 
 
   
